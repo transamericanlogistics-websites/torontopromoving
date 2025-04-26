@@ -1,0 +1,27 @@
+# Site settings
+title: "Toronto Pro Moving"
+description: "Professional moving services throughout Toronto and the GTA"
+url: "https://transamericanlogistics-websites.github.io/toronto-pro-moving"
+baseurl: ""  # leave blank for root
+
+# Branding colors (in CSS variables)
+primary_color: "#005792"      # Dark blue from box icon and text
+secondary_bg_color: "#FFFFFF" # White header background
+accent_color: "#FFA500"       # Orange from surrounding chevrons
+text_color: "#005792"         # Nav and body text
+border_radius: "12px"
+button_radius: "50px"
+
+# Markdown & Plugins
+markdown: kramdown
+theme: minima          # you can omit if embedding all CSS manually
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Ensure assets folder is published
+include:
+  - assets
+exclude:
+  - Gemfile.lock
+  - node_modules
